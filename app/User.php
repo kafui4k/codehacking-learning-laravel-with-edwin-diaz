@@ -37,7 +37,7 @@ class User extends Authenticatable
 
         if (!empty($password)) {
             # code...
-            $this->attributes['password'] = bcrypt($password);
+            $this->attributes['password'] = ($password);
 
         }
 
