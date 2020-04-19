@@ -24,13 +24,13 @@
     <hr>
 
     <!-- Preview Image -->
-    <img class="img-responsive" src="{{$post->photo->file}}" alt="">
+    <img class="img-responsive" src="{{$post->photo ? $post->photo->file : $post->photoplaceHolder()}}" alt="">
 
     <hr>
 
     <!-- Post Content -->
 
-    <p>{{$post->body}}</p>
+    <p>{!! $post->body !!}</p>
 
     <hr>
 
