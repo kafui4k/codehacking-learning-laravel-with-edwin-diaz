@@ -1,10 +1,13 @@
-@extends('layouts.blog-post')
+@extends('layouts.blog-home')
 
 
 
 @section('content')
 
+    {{-- <div class="row"> --}}
 
+
+   
 
     <!-- Blog Post -->
 
